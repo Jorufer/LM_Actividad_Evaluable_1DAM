@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&display=swap');
 
+/* #### RESET #### */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* #### DECLARACION DE FUENTE GENERICA #### */
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 
 }
+
+/* #### INICIO ENCABEZADO #### */
 
 .header {
     width: 100%;
@@ -71,6 +77,9 @@ body {
     
 }
 
+/* #### FIN ENCABEZADO #### */
+
+/* #### INICIO MENU #### */
 
 .menu {
     width: 100%;
@@ -111,8 +120,6 @@ body {
     text-decoration: inherit;
     color: inherit;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
-    
 }
 
 .menu__a:hover{
@@ -120,12 +127,15 @@ body {
     text-decoration: underline;
 }
 
-
 .menu__a:hover {
     background-color: #000;
     color: #fff;
     text-decoration: underline;
 }
+
+/* #### FIN MENU #### */
+
+/* #### INICIO PRESENTACION (PARRAFO + VIDEO) #### */
 
 .presentacion {
     width: 100%;
@@ -152,11 +162,11 @@ body {
     width: 49%;
     height: 270px;
     float: right;
-    /* background-color: black; */
-    
 }
 
+/* #### FIN PRESENTACION (PARRAFO + VIDEO) #### */
 
+/* #### INICIO PROGRAMACION (DONDE Y CUANDO) #### */
 
 .programacion {
     width: 100%;
@@ -208,6 +218,9 @@ body {
     font-size: 20px;
 }
 
+/* #### FIN PROGRAMACION (DONDE Y CUANDO) #### */
+
+/* #### INICIO GALERIA DE EVENTOS #### */
 
 .eventos {
     width: 100%;
@@ -228,8 +241,7 @@ body {
     grid-template-rows: 1fr 1fr;
     background-color: #fff;
     justify-content: space-between;
-    align-items: start;
-    
+    align-items: start;   
 }
 
 .eventos__figure  {
@@ -254,6 +266,10 @@ body {
     padding-bottom: 1rem;
 }
 
+/* #### FIN GALERIA DE EVENTOS #### */
+
+/* #### INICIO FOOTER #### */
+
 .footer {
     width: 100%;
     height: auto;
@@ -271,3 +287,4 @@ body {
     font-size: 1rem;
 }
 
+/* #### FIN FOOTER #### */
