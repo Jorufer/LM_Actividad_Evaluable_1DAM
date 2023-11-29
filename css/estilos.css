@@ -16,14 +16,7 @@ body {
 
 }
 
-/* #### INICIO ENCABEZADO #### */
-
-.header {
-    width: 100%;
-    height: auto;
-    background-color: #216288;
-}
-
+/* #### CONTENEDOR CENTRAL COMUN #### */
 
 .container {
     width: 50%;
@@ -33,7 +26,14 @@ body {
     margin: 0 auto;
     padding: 2rem 0;
     text-align: center;
-    
+}
+
+/* #### INICIO ENCABEZADO #### */
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color: #216288;
 }
 
 .header__container {
