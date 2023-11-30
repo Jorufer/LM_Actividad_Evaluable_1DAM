@@ -166,7 +166,7 @@ body {
 
 /* #### FIN PRESENTACION (PARRAFO + VIDEO) #### */
 
-/* #### INICIO PROGRAMACION (DONDE Y CUANDO) #### */
+/* #### INICIO PROGRAMACION (DONDE Y CUANDO) + PROGAMACION DE PROGRAMACION.HTML #### */
 
 .programacion {
     width: 100%;
@@ -193,8 +193,18 @@ body {
     float: right;
 }
 
-.programacion__h2 {
+.programacion__text-container--margin {
+    margin-left: 2rem;
+}
+
+.programacion__h2,
+.programacion__h3 {
     font-family: 'Fjalla One', sans-serif;
+}
+
+.programacion__h2--left {
+    text-align: left;
+    padding-bottom: 1.5rem;
 }
 
 .programacion__hr {
@@ -218,7 +228,28 @@ body {
     font-size: 20px;
 }
 
-/* #### FIN PROGRAMACION (DONDE Y CUANDO) #### */
+.programacion__h3 {
+    background-color: #b8d414;
+    display: inline;
+    margin-left: 2rem;
+}
+
+.programacion__ul {
+    margin-left: 2rem;
+    list-style: none;
+    padding-top: 1rem;
+}
+
+.programacion__li,
+.programacion__li-ol {
+    padding-top: 1rem;
+}
+
+.programacion__li-ol {
+    margin-left: 3rem;
+}
+
+/* #### FIN PROGRAMACION (DONDE Y CUANDO) + PROGAMACION DE PROGRAMACION.HTML #### */
 
 /* #### INICIO GALERIA DE EVENTOS #### */
 
@@ -255,10 +286,6 @@ body {
 .eventos__img {
     width: 100%;
     height: 155px;
-}
-
-.eventos__img:hover {
-    box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 
 .eventos__figcaption {
