@@ -61,7 +61,7 @@ body {
 }
 
 .header__h1 {
-    color: white; 
+    color: white;
     font-size: 2rem;
 }
 
@@ -72,9 +72,9 @@ body {
     transition: 0.3s ease;
 }
 
-.icon:hover{
+.icon:hover {
     transform: scale(1.2);
-    
+
 }
 
 /* #### FIN ENCABEZADO #### */
@@ -87,7 +87,7 @@ body {
     background-color: #b8d414;
 }
 
-.menu__container{
+.menu__container {
     height: 100%;
     background-color: #b8d414;
     padding: 0;
@@ -122,7 +122,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.menu__a:hover{
+.menu__a:hover {
     color: white;
     text-decoration: underline;
 }
@@ -251,6 +251,49 @@ body {
 
 /* #### FIN PROGRAMACION (DONDE Y CUANDO) + PROGAMACION DE PROGRAMACION.HTML #### */
 
+/* #### INICIO SCHEDULE #### */
+
+.schedule__h2 {
+    font-family: 'Fjalla One', sans-serif;
+    margin: 2rem auto;
+}
+
+.schedule__table {
+    width: 100%;
+    text-align: left;
+}
+
+.schedule__caption {
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+}
+
+.schedule__thead {
+    font-size: 12px;
+    background-color: #b8d414;
+}
+
+.schedule__tbody {
+    font-size: 12px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e5ffd4;
+}
+
+.schedule__footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+.schedule__a {
+    color: #777;
+}
+
+/* #### FIN SCHEDULE #### */
+
+
 /* #### INICIO GALERIA DE EVENTOS #### */
 
 .eventos {
@@ -266,16 +309,16 @@ body {
 }
 
 .eventos__container {
-    
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     background-color: #fff;
     justify-content: space-between;
-    align-items: start;   
+    align-items: start;
 }
 
-.eventos__figure  {
+.eventos__figure {
     width: 300px;
     height: auto;
     justify-self: center;
