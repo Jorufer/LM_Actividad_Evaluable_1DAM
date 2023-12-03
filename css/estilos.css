@@ -282,6 +282,10 @@ tbody tr:nth-child(even) {
     background-color: #e5ffd4;
 }
 
+.schedule__tr--border-bottom td {
+    border-bottom: 2px solid black;
+}
+
 .schedule__footer {
     text-align: center;
     font-size: 14px;
