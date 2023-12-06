@@ -54,7 +54,45 @@
     <!-- #### FIN MENU #### -->
 
 
-    
+    <main>
+        <section class="container inscripcion">
+            <h2 class="inscripcion__h2">Formulario de inscripción</h2>
+            <article class="inscripcion__card">
+                <form class="inscripcion__form" action="">
+                    <fieldset class="inscripcion__fieldset">
+                        <legend class="inscripcion__legend">Datos personales</legend>
+
+                        <label for="nombre" class="inscripcion__label">Nombre:<sup>*</sup></label>
+                        <br>
+                        <input class="inscripcion__input" type="text" name="nombre" id="nombre"
+                            pattern="[a-zA-ZáéíóúÁÉÍÓÚ]{2,50}" placeholder="Introduce tu nombre" required>
+
+                        <label for="apellidos" class="inscripcion__label">Apellidos:<sup>*</sup></label>
+                        <br>
+                        <input class="inscripcion__input" type="text" name="apellidos" id="apellidos"
+                            pattern="[a-zA-ZáéíóúÁÉÍÓÚ]{2,128}" placeholder="Introduce tus apellidos" required>
+
+                        <label for="email" class="inscripcion__label">Email:<sup>*</sup></label>
+                        <br>
+                        <input class="inscripcion__input" type="email" name="email" id="email"
+                            placeholder="Introduce tu correo electrónico" required>
+
+                        <label for="tlf" class="inscripcion__label">Teléfono:<sup>*</sup></label>
+                        <br>
+                        <input class="inscripcion__input" type="tel" pattern="[0-9]{9}" name="tlf" id="tlf"
+                            placeholder="Introduce tu teléfono" required>
+                        
+                        <label for="foto" class=".inscripcion__input">Adjuntar fotografía:</label>
+                        <br>
+                        <input class="inscripcion__input--file" type="file" name="foto" id="foto">
+
+                        <input class="inscripcion__btn" type="submit" value="Confirmar inscripción" ></input>
+
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+    </main>
 
 
     <!-- #### INICIO FOOTER #### -->

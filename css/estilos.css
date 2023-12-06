@@ -342,6 +342,76 @@ tbody tr:nth-child(even) {
 
 /* #### FIN GALERIA DE EVENTOS #### */
 
+/* #### INICIO INSCRIPCION #### */
+
+.inscripcion__h2 {
+    font-family: 'Fjalla One', sans-serif;
+    margin: 2rem auto;
+}
+
+.inscripcion__card {
+    width: 60%;
+    height: auto;
+    margin: 2rem auto;
+    background-color: #e5ffd4;
+    text-align: left;
+    box-shadow: 0 0 0 rgba(0,0,0,0.5);
+    padding: 3rem;
+}
+
+.inscripcion__fieldset {
+    border-style: none;
+}
+
+.inscripcion__legend {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.inscripcion__label {
+    display: inline-block;
+    margin-bottom: 0.8rem;
+}
+
+.inscripcion__input {
+    width: 100%;
+    height: 2.5rem;
+    padding: 1rem;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1.2rem;
+}
+
+.inscripcion__input:focus {
+    outline: none;
+}
+
+.inscripcion__input:focus:valid {
+    border: 3px solid green;
+}
+
+.inscripcion__input:focus:invalid {
+    border: 3px solid tomato;
+}
+.inscripcion__btn {
+    width: 50%;
+    height: 2.5rem;
+    margin: 2rem auto;
+    background-color: #fff;
+    cursor: pointer;
+    color: #000;
+    font-size: inherit;
+    font-family: inherit;
+    display: block;
+    transition: 0.3s all ease;
+}
+
+.inscripcion__btn:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+/* #### FIN INSCRIPCION #### */
+
 /* #### INICIO FOOTER #### */
 
 .footer {
