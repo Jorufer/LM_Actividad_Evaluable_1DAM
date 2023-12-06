@@ -59,6 +59,9 @@
             <h2 class="inscripcion__h2">Formulario de inscripción</h2>
             <article class="inscripcion__card">
                 <form class="inscripcion__form" action="">
+
+                    <!-- #### Datos Personales #### -->
+
                     <fieldset class="inscripcion__fieldset">
                         <legend class="inscripcion__legend">Datos personales</legend>
 
@@ -81,12 +84,18 @@
                         <br>
                         <input class="inscripcion__input" type="tel" pattern="[0-9]{9}" name="tlf" id="tlf"
                             placeholder="Introduce tu teléfono" required>
-                        
+
                         <label for="foto" class=".inscripcion__input">Adjuntar fotografía:</label>
                         <br>
                         <input class="inscripcion__input--file" type="file" name="foto" id="foto">
 
-                        <input class="inscripcion__btn" type="submit" value="Confirmar inscripción" ></input>
+                        <!-- #### Campos obligatorios #### -->
+
+                        <p class="inscripcion__obligatorios"><sup>*</sup>Campos obligatorios</p>
+
+                        <!-- #### Botón de inscripción #### -->
+
+                        <input class="inscripcion__btn" type="submit" value="Confirmar inscripción"></input>
 
                     </fieldset>
                 </form>

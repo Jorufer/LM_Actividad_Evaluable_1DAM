@@ -355,7 +355,7 @@ tbody tr:nth-child(even) {
     margin: 2rem auto;
     background-color: #e5ffd4;
     text-align: left;
-    box-shadow: 0 0 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
     padding: 3rem;
 }
 
@@ -393,6 +393,12 @@ tbody tr:nth-child(even) {
 .inscripcion__input:focus:invalid {
     border: 3px solid tomato;
 }
+
+.inscripcion__obligatorios {
+    font-size: 14px;
+    padding-top: 1rem;
+}
+
 .inscripcion__btn {
     width: 50%;
     height: 2.5rem;
