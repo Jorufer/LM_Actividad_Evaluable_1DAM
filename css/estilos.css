@@ -390,7 +390,7 @@ tbody tr:nth-child(even) {
 }
 
 .inscripcion__input:focus:invalid {
-    border: 3px solid tomato;
+    border: 3px solid red;
 }
 
 .inscripcion__input--file {
@@ -421,10 +421,6 @@ tbody tr:nth-child(even) {
     font-family: 'Open Sans', sans-serif;
     padding: 1rem;
     font-size: 16px;
-    /* height: 2.5rem;
-    padding: 1rem;
-    font-size: 18px;
-    margin-bottom: 1.2rem; */
 }
 
 .inscripcion__obligatorios {
