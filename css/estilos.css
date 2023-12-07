@@ -83,7 +83,7 @@ body {
 
 .menu {
     width: 100%;
-    height: aut;
+    height: auto;
     background-color: #b8d414;
 }
 
@@ -327,7 +327,6 @@ tbody tr:nth-child(even) {
     height: auto;
     justify-self: center;
     object-fit: cover;
-    transition: all 0.3 ease;
 }
 
 .eventos__img {
