@@ -68,12 +68,12 @@
                         <label for="nombre" class="inscripcion__label">Nombre:<sup>*</sup></label>
                         <br>
                         <input class="inscripcion__input" type="text" name="nombre" id="nombre"
-                            pattern="[a-zA-ZáéíóúÁÉÍÓÚ]{2,50}" placeholder="Introduce tu nombre" required>
+                            pattern="[a-zA-Z áéíóúÁÉÍÓÚ]{2,50}" placeholder="Introduce tu nombre" required>
 
                         <label for="apellidos" class="inscripcion__label">Apellidos:<sup>*</sup></label>
                         <br>
                         <input class="inscripcion__input" type="text" name="apellidos" id="apellidos"
-                            pattern="[a-zA-ZáéíóúÁÉÍÓÚ]{2,128}" placeholder="Introduce tus apellidos" required>
+                            pattern="[a-zA-Z áéíóúÁÉÍÓÚ]{2,128}" placeholder="Introduce tus apellidos" required>
 
                         <label for="email" class="inscripcion__label">Email:<sup>*</sup></label>
                         <br>
@@ -85,13 +85,120 @@
                         <input class="inscripcion__input" type="tel" pattern="[0-9]{9}" name="tlf" id="tlf"
                             placeholder="Introduce tu teléfono" required>
 
+                        <!-- #### Adjuntar fotografía #### -->
+
                         <label for="foto" class=".inscripcion__input">Adjuntar fotografía:</label>
                         <br>
                         <input class="inscripcion__input--file" type="file" name="foto" id="foto">
+                        <br>
+
+                        <!-- #### Textarea de por que esta interesado en participar #### -->
+
+                        <label for="textarea">Motivos por los que deseas participar en las jornadas:</label>
+                        <br>
+                        <textarea class="inscripcion__input inscripcion__input--textarea" name="textarea" id="textarea"
+                            rows="10" placeholder="Introduce aquí una breve descripción"></textarea>
+
+                        <!-- #### Radiobtn Actividad profesional #### -->
+
+                        <fieldset class="inscripcion__fieldset">
+                            <legend class="inscripcion__legend">Perfil del usuario</legend>
+
+                            <label class="inscripcion__label">Actividad profesional: </label>
+                            <br>
+
+                            <input class="inscripcion__radio" type="radio" name="actividad-profesional" id="bachiller">
+                            <label class="inscripcion__label inscripcion__label--radio" for="bachiller">Estudiante de
+                                bachillerato</label>
+                            <br>
+
+                            <input class="inscripcion__radio" type="radio" name="actividad-profesional"
+                                id="universitario">
+                            <label class="inscripcion__label inscripcion__label--radio" for="universitario">Estudiante
+                                universitario</label>
+                            <br>
+
+                            <input class="inscripcion__radio" type="radio" name="actividad-profesional" id="doctorado">
+                            <label class="inscripcion__label inscripcion__label--radio"
+                                for="doctorado">Doctorado</label>
+                            <br>
+
+                            <input class="inscripcion__radio" type="radio" name="actividad-profesional" id="infomatico">
+                            <label class="inscripcion__label inscripcion__label--radio" for="informatico">Profesional
+                                informático</label>
+                            <br>
+
+                            <input class="inscripcion__radio" type="radio" name="actividad-profesional" id="profesor">
+                            <label class="inscripcion__label inscripcion__label--radio" for="profesor">Profesor</label>
+                            <br>
+
+                            <input class="inscripcion__radio" type="radio" name="actividad-profesional" id="otros">
+                            <label class="inscripcion__label inscripcion__label--radio" for="otros">Otros</label>
+                            <br>
+
+                            <!-- #### Talleres de interes Checkbox #### -->
+
+                            <label class="inscripcion__label">Talleres que te interesan: </label>
+                            <br>
+
+                            <input class="inscripcion__checkbox" type="checkbox" name="talleres-interes" id="cuantica">
+                            <label class="inscripcion__label inscripcion__label--checkbox" for="cuantica">Computación
+                                Cuántica: La Próxima Revolución de la
+                                Informática</label>
+                            <br>
+
+                            <input class="inscripcion__checkbox" type="checkbox" name="talleres-interes" id="3d">
+                            <label class="inscripcion__label inscripcion__label--checkbox" for="3d">Animación 3D en la
+                                Industria del Videojuego</label>
+                            <br>
+
+                            <input class="inscripcion__checkbox" type="checkbox" name="talleres-interes" id="moviles">
+                            <label class="inscripcion__label inscripcion__label--checkbox" for="moviles">Taller sobre
+                                análisis de dispositivos móviles</label>
+                            <br>
+
+                            <input class="inscripcion__checkbox" type="checkbox" name="talleres-interes" id="agiles">
+                            <label class="inscripcion__label inscripcion__label--checkbox" for="agiles">Metodologías
+                                Ágiles y Transformación Digital: experiencias asequibles y
+                                útiles en educación</label>
+                            <br>
+
+                            <input class="inscripcion__checkbox" type="checkbox" name="talleres-interes" id="virtual">
+                            <label class="inscripcion__label inscripcion__label--checkbox" for="virtual">Realidad
+                                virtual y aumentada</label>
+                            <br>
+
+                            <input class="inscripcion__checkbox" type="checkbox" name="talleres-interes" id="lego">
+                            <label class="inscripcion__label inscripcion__label--checkbox" for="lego">First Lego
+                                League</label>
+                            <br>
+
+                            <!-- #### Lista seleccionable Dias de asistencia #### -->
+
+                            <label class="inscripcion__label" for="dias-asistencia">Selecciona una de las tres opciones
+                                siguientes:<sup>*</sup></label>
+                            <select class="inscripcion__select" name="dias-asistencia" id="dias-asistencia" required>
+                                <option value="#" class="inscripcion__option-list" disabled selected hidden>--
+                                    Selecciona una opción --</option>
+                                <option value="todos" class="inscription__option-list">Asistiré los días 3 y 4 de
+                                    febrero</option>
+                                <option value="dia3" class="inscription__option-list">Asistiré el 3 de febrero</option>
+                                <option value="dia4" class="inscription__option-list">Asistiré el 4 de febrero</option>
+                            </select>
+
+                        </fieldset>
 
                         <!-- #### Campos obligatorios #### -->
 
                         <p class="inscripcion__obligatorios"><sup>*</sup>Campos obligatorios</p>
+
+                        <!-- #### Aceptar condiciones #### -->
+
+                        <input class="inscripcion__checkbox" type="checkbox" name="aceptar-condiciones"
+                            id="aceptar-condiciones" required>
+                        <label class="inscripcion__label inscripcion__label--checkbox" for="aceptar-condiciones">He
+                            leído y acepto la política
+                            de privacidad y el aviso legal</label>
 
                         <!-- #### Botón de inscripción #### -->
 
