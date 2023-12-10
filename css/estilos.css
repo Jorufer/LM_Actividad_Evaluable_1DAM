@@ -100,7 +100,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .menu__li {
     height: 100%;
     width: auto;
@@ -305,44 +304,44 @@ tbody tr:nth-child(even) {
 
 /* #### INICIO GALERIA DE EVENTOS #### */
 
-.eventos {
-    width: 100%;
-    background-color: #fff;
-    text-align: center;
-}
+    .eventos {
+        width: 100%;
+        background-color: #fff;
+        text-align: center;
+    }
 
-.eventos__h2 {
-    font-family: 'Fjalla One', sans-serif;
-    padding-top: 2rem;
-    text-align: center;
-}
+    .eventos__h2 {
+        font-family: 'Fjalla One', sans-serif;
+        padding-top: 2rem;
+        text-align: center;
+    }
 
-.eventos__container {
+    .eventos__container {
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    background-color: #fff;
-    justify-content: space-between;
-    align-items: start;
-}
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-color: #fff;
+        justify-content: space-between;
+        align-items: start;
+    }
 
-.eventos__figure {
-    width: 300px;
-    height: auto;
-    justify-self: center;
-    object-fit: cover;
-}
+    .eventos__figure {
+        width: 300px;
+        height: auto;
+        justify-self: center;
+        object-fit: cover;
+    }
 
-.eventos__img {
-    width: 100%;
-    height: 155px;
-}
+    .eventos__img {
+        width: 100%;
+        height: 155px;
+    }
 
-.eventos__figcaption {
-    font-size: 16px;
-    padding-bottom: 1rem;
-}
+    .eventos__figcaption {
+        font-size: 16px;
+        padding-bottom: 1rem;
+    }
 
 /* #### FIN GALERIA DE EVENTOS #### */
 
